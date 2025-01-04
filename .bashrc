@@ -141,9 +141,9 @@ alias ..='cd ..'
 
 # some functions
 
-source ./.bashrc.colors
-source ./.bashrc.func
-source ./.bashrc.github
+#source ~/.bashrc.colors
+source ~/.bashrc.func
+source ~/.bashrc.github
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like

@@ -7,16 +7,21 @@ chx() {
 
   chmod +x $file_name
 }
-
 dc() {
   docker-compose up -d
 }
-
-dcd(){
+dcd() {
   docker-compose down
 }
-
+dcdv(){
+  docker-compose down -v
+}
 dps(){
   docker ps -a
 }
-
+dvls() {
+  docker volume ls
+}
+dnls() {
+  docker network ls
+}
