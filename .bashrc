@@ -138,7 +138,7 @@ alias la='ls -Alsh'
 alias lcf='ls -CF'
 alias l='ls -l'
 alias ..='cd ..'
-alias aptup='sudo apt update && apt list --upgradable'
+alias aptup='sudo apt update && apt list --upgradable -y'
 
 # some functions
 
