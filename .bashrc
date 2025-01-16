@@ -133,11 +133,12 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# some more ls aliases
+# some more aliases
 alias la='ls -Alsh'
 alias lcf='ls -CF'
 alias l='ls -l'
 alias ..='cd ..'
+alias aptup='sudo apt update && sudo apt --list upgradeble'
 
 # some functions
 
